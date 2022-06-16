@@ -1,32 +1,24 @@
-/* Paleta de cores
-003049
-D62828
-F77F00
-FCBF49
-EAE2B7
-*/
-
 * {
   margin: 0;
   padding: 0;
 }
 header {
-  color: #003049;
+  border-bottom: solid;
+  font-size: 22px;
+  color: #22223b;
   text-align: center;
-  background: #fcbf49;
+  background: #9a8c98;
   margin-bottom: 24px;
 }
-span {
-  text-decoration: none;
-}
 body {
-  background-color: #eae2b7;
+  background-color: #f2e9e4;
 }
 section img {
   border-radius: 24px;
   margin-bottom: 24px;
 }
 section {
+  color: #22223b;
   align-items: center;
   border-radius: 32px;
   display: flex;
@@ -36,26 +28,32 @@ section {
   text-align: center;
   font-weight: 600;
   word-spacing: 1px;
-  background: #f77f00;
-  margin: 16px auto;
+  background: #9a8c98;
+  margin: 18px auto;
+}
+section p a {
+  color: #22223b;
+}
+
+main{
+  color: #22223b;
 }
 h2 {
-  background-color: #fcbf49;
-  color: #003049;
+  background-color: #c9ada7;
+  color: #22223b;
   text-align: center;
   margin: 25px auto;
   border-radius: 7px;
   font-size: 32px;
   width: 180px;
- }
-.texthabilidades{
+}
+.texthabilidades {
   margin: auto;
   width: 380px;
   border-radius: 16px;
   text-align: center;
-  }
-  .texthabilidades ul{
-    list-style-type: none;   
-    margin: auto;
-  }
-
+}
+.texthabilidades ul {
+  list-style-type: none;
+  margin: auto;
+}

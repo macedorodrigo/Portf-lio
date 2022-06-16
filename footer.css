@@ -1,24 +1,27 @@
 .divfooter {
+  
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
-a {
+footer div a {
+  color: #22223b;
   margin: 0 15px;
   text-decoration: none;
   color: #003049;
   font-size: 20px;
 }
 a:hover {
-  background-color: #d62828;
+  background-color: #4a4e69;
   padding-bottom: 5px;
-  box-shadow: inset 0 -2px 0 0 #333;
-  color:white
+  box-shadow: inset 0 -2px 0 0 #22223b;
+  color: white;
 }
 footer {
+  border-top: solid#22223b;
   height: 60px;
   width: 100%;
-  background-color: #fcbf49;
+  background-color: #c9ada7;
   position: fixed;
   bottom: 0px;
   display: flex;
