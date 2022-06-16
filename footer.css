@@ -8,8 +8,8 @@ footer div a {
   color: #22223b;
   margin: 0 15px;
   text-decoration: none;
-  color: #003049;
   font-size: 20px;
+  font-weight: 700;
 }
 a:hover {
   background-color: #4a4e69;
